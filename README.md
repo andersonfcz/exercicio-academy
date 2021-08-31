@@ -1,7 +1,7 @@
 # Exercício-academy
-##Exercício do Five Academy com o intuito de praticar conceitos DevOps aprendidos.
+## Exercício do Five Academy com o intuito de praticar conceitos DevOps aprendidos.
  
-###Exercício proposto:
+### Exercício proposto:
 Crie uma Docker Image que tenha como premissa rodar aplicações Web em Java com as seguintes especificações:
  
 - Uma imagem de CentOS ou Ubuntu
