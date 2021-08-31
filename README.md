@@ -1,7 +1,7 @@
 # Exercício-academy
-##Exercício do Five Academy com o intuito de praticar conceitos DevOps aprendidos.
+## Exercício do Five Academy com o intuito de praticar conceitos DevOps aprendidos.
  
-###Exercício proposto:
+### Exercício proposto:
 Crie uma Docker Image que tenha como premissa rodar aplicações Web em Java com as seguintes especificações:
  
 - Uma imagem de CentOS ou Ubuntu
@@ -10,7 +10,7 @@ Crie uma Docker Image que tenha como premissa rodar aplicações Web em Java com
 - Um banco de dados a ser conectado a aplicação
  
  
-###Resultado:
+### Resultado:
 Para criar a imagem e utilizado um multi-stage build composto de:
 - Imagem <strong><em>certbot</em></strong> para geração dos certificados de forma facilitada. Para simplificação foi utilizado um mock na geração dos certificados.
 - Imagem do servidor web <strong><em>tomcat-correto</strong></em> da Amazon na versao <strong>10.0.8</strong> com a <em>jdk</em> na versão <strong>16</strong>.
