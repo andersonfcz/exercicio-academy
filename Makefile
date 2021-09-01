@@ -7,7 +7,7 @@ build:
 		--build-arg DB_NAME=$DB_NAME \
 		--build-arg DB_USER=$DB_USER \
 		--build-arg DB_PASS=$DB_PASS \
-		--build-arg image=$(package) \
+		--build-arg package=$(package) \
 		--no-cache .
 
 run:
